@@ -10,8 +10,8 @@ app.use(express.json())
 // publc
 app.use(express.static("public"))
 
-var apiroutes = require("./routes/apiroutes")
-apiroutes(app);
+var apiRoutes = require("./routes/apiroutes")
+apiRoutes(app);
 
 
 
